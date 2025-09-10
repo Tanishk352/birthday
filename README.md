@@ -11,7 +11,7 @@
     $ git clone https://github.com/tanishk352/birthday
 
     # Go into the repository
-    $ cd happybirthday
+    $ cd birthday
 
     # Open it with your text editor
     $ code .
