@@ -1,102 +1,158 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Happy Birthday — GlowUp 🎉</title>
-
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
-
-  <!-- GSAP -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
-  <!-- html2canvas for export -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
-  <script src="js/app.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <title>Happy Birthday!!! :)</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <!-- My Style -->
+  <link rel="stylesheet" href="./style/main.css" />
 </head>
+
 <body>
-  <div class="ui-top">
-    <div class="brand">GlowBDay</div>
-    <div class="controls">
-      <button id="themeToggle" aria-label="Toggle theme">🌙</button>
-      <button id="downloadBtn" title="Download card">⤓ Save</button>
+
+    <audio class="song" loop autoplay>
+        <source src="./music/hbd.mpeg">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+
+    <div class="container">
+        <div class="one">
+            <h1 class="one">
+                Hi
+                <span id="name">Irene</span>
+            </h1>
+            <p class="two" id="greetingText">I really like your name btw!</p>
+        </div>
+
+        <div class="three">
+            <p>It's your birthday!! :D</p>
+        </div>
+
+        <div class="four">
+            <div class="text-box">
+                <p class="hbd-chatbox">
+                Happy birthday to youu!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quisquam amet ipsam vitae, voluptatum architecto aliquid id quo error tempora quos aperiam magni necessitatibus quas ut, possimus nesciunt nam ad.
+                </p>
+                <p class="fake-btn">Send</p>
+            </div>
+        </div>
+
+        <div class="five">
+            <p class="idea-1">That's what I was going to do.</p>
+            <p class="idea-2">But then I stopped.</p>
+            <p class="idea-3">
+                I realised, I wanted to do something<br>
+                <strong>special</strong>
+                .
+            </p>
+            <p class="idea-4">Because,</p>
+            <p class="idea-5">
+                You are Special
+                <span>:)</span>
+            </p>
+            <p class="idea-6">
+                <span>S</span>
+                <span>O</span>
+            </p>
+        </div>
+
+        <div class="six">
+            <img src="./img/irene.jpg" alt="profile" class="profile-picture" id="imagePath"/>
+            <img src="img/hat.svg" alt="hat" class="hat" />
+            <div class="wish">
+                <h3 class="wish-hbd">Happy Birthday!</h3>
+                <h5 id="wishText">May the js.prototypes always be with you! ;)</h5>
+            </div>
+        </div>
+
+        <div class="seven">
+            <div class="baloons">
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+            </div>
+        </div>
+
+        <div class="eight">
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+        </div>
+
+        <div class="nine">
+            <p>Okay, now come back and tell me if you liked it.</p>
+            <p id="replay">Or click, if you want to watch it again.</p>
+            <p class="last-smile">:)</p>
+        </div>
     </div>
-  </div>
 
-  <main id="card" class="card">
-    <section class="left-panel">
-      <div class="stage" id="stage">
-        <!-- Slide 1 -->
-        <div class="slide active" data-slide="1">
-          <h1 id="greetTitle">🎉 Happy Birthday!</h1>
-          <p id="greetSubtitle">Make it iconic — type a name and press celebrate ✨</p>
-        </div>
-
-        <!-- Slide 2 (photo + sticker) -->
-        <div class="slide" data-slide="2">
-          <div class="photo-wrap" id="photoWrap">
-            <img id="photoPreview" alt="Uploaded photo preview" />
-            <img class="sticker sticker-top" src="assets/sample-sticker.png" alt="" />
-          </div>
-          <p class="caption">Add a photo & stickers</p>
-        </div>
-
-        <!-- Slide 3 (final) -->
-        <div class="slide" data-slide="3">
-          <div class="final-box">
-            <h2 id="finalName">You are legendary ✨</h2>
-            <div class="micro-note">Tap save to download your story card</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pager">
-        <div id="prevBtn" class="nav">‹</div>
-        <div id="nextBtn" class="nav">›</div>
-      </div>
-    </section>
-
-    <aside class="right-panel">
-      <label class="field">
-        <span>Name</span>
-        <input id="nameInput" placeholder="e.g., Aisha" />
-      </label>
-
-      <label class="field">
-        <span>Message</span>
-        <input id="messageInput" placeholder="Short wish (optional)" />
-      </label>
-
-      <label class="field">
-        <span>Upload photo</span>
-        <input id="photoInput" type="file" accept="image/*" />
-      </label>
-
-      <div class="controls-col">
-        <button id="celebrateBtn" class="primary">Celebrate 🎂</button>
-        <button id="playMusicBtn" class="ghost">Play beat</button>
-      </div>
-
-      <div class="theme-palette">
-        <span>Theme</span>
-        <button data-theme="pastel" class="theme-btn">🌸</button>
-        <button data-theme="neon" class="theme-btn">🌌</button>
-        <button data-theme="vapor" class="theme-btn">🌊</button>
-      </div>
-
-      <div class="small">
-        <label><input id="reduceMotion" type="checkbox"> Reduce motion</label>
-      </div>
-
-      <div class="attribution">Made with ❤️ — modify & PR</div>
-    </aside>
-  </main>
-
-  <audio id="bgMusic" loop preload="auto">
-    <source src="assets/sample-music.mp3" type="audio/mpeg">
-  </audio>
-
-  <!-- confetti container -->
-  <div id="confetti"></div>
 </body>
+    <!-- Greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <!-- Sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="application/javascript" src="./script/main.js"></script>
+
 </html>
