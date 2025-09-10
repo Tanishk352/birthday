@@ -1,6 +1,6 @@
 ## 🎉 Birthday Greeting Webpage 
 
-[Demo](https://fajarghifar.github.io/happybirthday/)
+[Demo](https://tanishk352.github.io/birthday/)
 
 ## 🚀 How to Use
 
@@ -33,7 +33,5 @@ If you have any ideas to make it more interesting, please submit a pull request 
 
 ### [MIT](LICENSE)
 
-> Github [@fajarghifar](https://github.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Youtube [@fajarghifar](https://www.youtube.com/@fajarghifar/) &nbsp;&middot;&nbsp;
-> Instagram [@fajarghifar](https://instagram.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Linkedin [@fajarghifar](https://www.linkedin.com/in/fajarghifar/)
+> Github [@tanishk352](https://github.com/tanishk352) &nbsp;&middot;&nbsp;
+> Instagram [@tanishk_3_50](https://instagram.com/tanishk_3_50) &nbsp;&middot;&nbsp;
